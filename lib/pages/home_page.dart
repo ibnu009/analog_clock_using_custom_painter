@@ -29,13 +29,13 @@ class HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    NotificationApi.init();
+    NotificationHelper.init();
     listenNotification();
     isSelected[0] = true;
   }
 
   void listenNotification() =>
-      NotificationApi.onNotification.stream.listen(onClickNotification);
+      NotificationHelper.onNotification.stream.listen(onClickNotification);
 
   void onClickNotification(String? payload) {
     showModalBottomSheet<void>(
@@ -120,7 +120,7 @@ class HomePageState extends State<HomePage> {
                   isActivated = value;
                   if (isActivated) {
                     print('payload is ${setDateTime().formatDate('yyyy-MM-dd  hh:mm a')}');
-                    NotificationApi.showNotificationSchedule(
+                    NotificationHelper.showNotificationSchedule(
                         title: 'Alarm',
                         body: 'Your alarm is active',
                         payload: setDateTime().toString(),
@@ -134,7 +134,7 @@ class HomePageState extends State<HomePage> {
                     });
                     showSnackBar();
                   } else {
-                    NotificationApi.cancel();
+                    NotificationHelper.cancel();
                   }
                 });
               })
@@ -197,7 +197,7 @@ class HomePageState extends State<HomePage> {
                             isAm = index == 0 ? true : false;
                             isActivated = false;
                             isSelected[buttonIndex] = true;
-                            NotificationApi.cancel();
+                            NotificationHelper.cancel();
                           } else {
                             isSelected[buttonIndex] = false;
                           }
