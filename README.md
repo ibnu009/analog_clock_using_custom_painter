@@ -8,7 +8,7 @@ This project is an alarm app that the time off of the alarm can be set by moving
 
 1. Select desired time for the alarm by moving the hour hand (short one) and the minute hand (long ong) by following the clockwise direction.
 2. Choose either "AM" or "PM"
-3. Press the switch button at the top right corner (it will show you message at the bottom at the time you selected)
+3. Press the switch button at the top right corner (it will show you message at the bottom if it activated)
 4. Wait for the alarm went off
 
 For more information you can contact me by [LinkedIn](https://www.linkedin.com/in/ibnu-batutah/), or by email ibnubatutah001@gmail.com.
