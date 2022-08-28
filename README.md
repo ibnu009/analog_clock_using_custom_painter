@@ -1,16 +1,14 @@
-# bibit_technical_test
+# Bibit|Stockbit Flutter Developer Technical Test
 
-A new Flutter project.
+## About App
 
-## Getting Started
+This project is an alarm app that the time off of the alarm can be set by moving the clock hands, and when the alarm is on you will received the notification once the alarm went off at the selected time. And then the app will calculate your duration between the time alarm went off and the time you pressed the notification. The calculation will be presented in bar chart which is the y-axis is the time you set the alarm and the x-axis is the duration (in seconds).
 
-This project is a starting point for a Flutter application.
+## How to Use it
 
-A few resources to get you started if this is your first Flutter project:
+1. Select desired time for the alarm by moving the hour hand (short one) and the minute hand (long ong) by following the clockwise direction.
+2. Choose either "AM" or "PM"
+3. Press the switch button at the top right corner (it will show you message at the bottom at the time you selected)
+4. Wait for the alarm went off
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For more information you can contact me by [LinkedIn](https://www.linkedin.com/in/ibnu-batutah/), or by email ibnubatutah001@gmail.com.
